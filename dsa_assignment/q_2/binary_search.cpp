@@ -52,7 +52,6 @@ int main() {
 
     sort(copiedArr.begin(), copiedArr.end());
 
-    int query = 10;
     int n = copiedArr.size();
     cout << "Search for 23: Index " << recursiveBinarySearch(copiedArr, 0, n - 1, 23) << endl;
 

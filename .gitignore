@@ -1,0 +1,24 @@
+# --- Executables ---
+# Matches the specific names from your Makefile
+dsa_assignment/q_1/question_1
+dsa_assignment/q_2/binary_search
+dsa_assignment/q_2/factorial
+dsa_assignment/q_2/fibonacci
+dsa_assignment/q_2/string_reversal
+
+# Generic rule to catch other compiled binaries (no extension on Linux/Mac)
+# Be careful: this might catch files without extensions that you WANT to keep.
+# A safer way is to list them specifically as shown above.
+*.out
+*.exe
+*.o
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
